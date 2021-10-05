@@ -21,14 +21,13 @@ to communicate with the guest VM.
 
 ### **Configuring the Netowrk**
 
+The simplest way to connect to a guest VM is using the bridged
+virtual networking mode. While it is the simplest, it is also
+the least secure.
+
 --------------------------------------------
 
 ### **Host to Guest Communication**
 
---------------------------------------------
-
-### **Lab**
-
-* Connect to the host machine via a guest virtual machine.
-
-* Connect to a guest virtual machine via the host machine.
+Once the IP address of the VM is obtained, it is possible to connect
+via SSH to the guest VM.
